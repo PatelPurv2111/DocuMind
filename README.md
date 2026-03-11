@@ -125,8 +125,8 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/documind.git
-cd documind
+git clone https://github.com/PatelPurv2111/DocuMind.git
+
 
 Install dependencies:
 
