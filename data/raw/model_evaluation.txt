@@ -1,0 +1,9 @@
+Model evaluation is an essential step in the machine learning workflow. After training a model, it is important to measure how well it performs on unseen data. Without proper evaluation, a model may appear accurate during training but fail in real-world applications.
+
+One common technique for evaluating models is to split the dataset into training, validation, and testing sets. The training set is used to learn model parameters, while the validation set helps tune hyperparameters. The test set is used for the final evaluation of model performance.
+
+Cross-validation is another widely used method. In k-fold cross-validation, the dataset is divided into several subsets called folds. The model is trained multiple times using different combinations of training and validation folds. This approach provides a more reliable estimate of model performance.
+
+Evaluation metrics vary depending on the type of task. For classification problems, accuracy, precision, recall, and F1-score are commonly used. For regression problems, metrics such as mean squared error and mean absolute error measure prediction quality.
+
+Proper evaluation ensures that machine learning models generalize well and perform reliably when deployed in real-world environments.
